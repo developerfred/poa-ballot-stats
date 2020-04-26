@@ -6,14 +6,14 @@ description = "Read POA voting records and rank voters by how many ballots they 
 edition = "2018"
 
 [dependencies]
-clap = "2.31.2"
-colored = "1.6.0"
+clap = "2.33.0"
+colored = "1.9.3"
 error-chain = { version = "0.12", default-features = false }
-ethabi = "6.1.0"
-ethabi-contract = "6.0.0"
-ethabi-derive = "6.0.2"
-parse_duration = "1.0.1"
-serde = "1.0.82"
-serde_derive = "1.0.82"
-serde_json = "1.0.33"
-web3 = { version = "0.5.1", default-features = false, features = ["http", "tls"] }
+ethabi = "12.0.0"
+ethabi-contract = "11.0.0"
+ethabi-derive = "12.0.0"
+parse_duration = "2.1.0"
+serde = "1.0.106"
+serde_derive = "1.0.106"
+serde_json = "1.0.51"
+web3 = { version = "0.10.0", default-features = false, features = ["http", "tls"] }
